@@ -142,8 +142,7 @@ Mở `http://localhost:3000` để sử dụng giao diện. Backend cần đang 
 
 Khi triển khai frontend, cấu hình `VITE_API_URL` thành URL backend API trên Render, có dạng:
 
-```text
-https://<backend-service>.onrender.com/api/foods
+https://food-frontend-236768.onrender.com
 ```
 
 Cập nhật URL triển khai thực tế sau khi tạo các dịch vụ Render.
