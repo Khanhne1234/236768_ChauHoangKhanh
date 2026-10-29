@@ -7,7 +7,7 @@ RUN npm ci
 
 COPY . .
 
-ARG VITE_API_URL=http://localhost:5000/api/foods
+ARG VITE_API_URL=https://food-backend-236768.onrender.com/api/foods
 ENV VITE_API_URL=$VITE_API_URL
 
 RUN npm run build
