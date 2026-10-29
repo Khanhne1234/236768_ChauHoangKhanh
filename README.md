@@ -14,8 +14,16 @@ và cơ sở dữ liệu MongoDB Atlas.
 - `client/`: giao diện frontend
 - `server/`: backend API
 
-## Cách chạy
-Hướng dẫn chạy frontend và backend sẽ được cập nhật khi hoàn thành các phần tiếp theo.
+## Cài đặt
+
+Mở Terminal tại thư mục dự án và cài các thư viện:
+
+```bash
+cd server
+npm install
+cd ../client
+npm install
+
 
 ## Triển khai
 - Frontend: cập nhật sau
