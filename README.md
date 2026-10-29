@@ -4,14 +4,6 @@ Thông tin sinh viên
 - Họ và tên: Châu Hoàng Khanh
 - MSSV: 236768
 - Repository: 236768_ChauHoangKhanh
-Liên kết triển khai
-Thành phần	Đường dẫn
-Frontend	https://food-frontend-236768.onrender.com
-Backend API	https://food-backend-236768.onrender.com
-Danh sách món ăn	https://food-backend-236768.onrender.com/api/foods
-Health check	https://food-backend-236768.onrender.com/health
-Docker Hub backend	https://hub.docker.com/r/hoangkhanhchau17112004/food-management-backend
-Docker Hub frontend	https://hub.docker.com/r/hoangkhanhchau17112004/food-management-frontend
 
 
 Công nghệ
@@ -66,18 +58,7 @@ description	Chuỗi	Mô tả món ăn
 imageUrl	Chuỗi	URL hình ảnh, có thể để trống nếu chưa có
 
 
-Ví dụ dữ liệu món ăn:
-{
-  "foodId": "F001",
-  "name": "Phở bò",
-  "category": "Món nước",
-  "cuisine": "Việt Nam",
-  "ingredients": ["bánh phở", "thịt bò", "hành", "nước dùng"],
-  "price": 50000,
-  "quantity": 20,
-  "description": "Phở bò truyền thống",
-  "imageUrl": ""
-}
+
 Yêu cầu môi trường
 - Node.js và npm tương thích với phiên bản Vite trong client/package.json; Dockerfile hiện sử dụng node:20-alpine.
 - Git để quản lý mã nguồn.
@@ -192,8 +173,3 @@ Bảo vệ thông tin cấu hình
 - Chỉ cấu hình MongoDB ở backend; frontend gọi API để truy cập dữ liệu.
 - Các biến bắt đầu bằng VITE_ được đưa vào mã frontend, vì vậy không dùng chúng để lưu bí mật.
 Cập nhật README lên GitHub
-Chạy tại thư mục gốc dự án:
-git add README.md
-git diff --cached -- README.md
-git commit -m "docs: cap nhat huong dan cai dat Docker va Render"
-git push origin main
